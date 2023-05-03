@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  justify-content: center;
+  background-color: #9d7a5a;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 50px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+.watches {
+  display: flex;
+  border: 5px solid;
+}
+.watches div {
+  margin: 6px;
+  position: relative;
+}
+.watches span {
+  width: 100px;
+  height: 50px;
+  background-color: #5f3106;
+  display: flex;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  font-size: medium;
+  font-weight: bolder;
+  margin: 3px;
+}
+.watches #wrıtıng {
+  height: 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  opacity: 0.8;
+}
+.watches #pmam {
+  bottom: 0;
+  position: absolute;
+  width: 50px;
+  height: 30px;
+  background-color: #351b02;
+}
